@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>3 Years, Love ❤️</title><style>
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Quicksand:wght@400;500;600;700&display=swap');
+*{box-sizing:border-box}html,body{margin:0;padding:0}
+body{min-height:100vh;background:#f8f0e2;color:#403b36;font-family:'Quicksand',sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:radial-gradient(#bcae99 .55px,transparent .55px);background-size:7px 7px}
+.page{display:none;min-height:100vh;padding:38px 18px 48px;align-items:center;justify-content:center}
+.page.active{display:flex;animation:fade .5s ease}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.paper{width:min(930px,100%);position:relative;background:#fffaf1;border:2px solid #4a443d;border-radius:10px;padding:42px 34px 36px;box-shadow:8px 10px 0 #56493a1a,0 18px 45px #4636251a}
+.tape{position:absolute;width:120px;height:30px;background:#d7c7a5aa;top:-13px;left:50%;transform:translateX(-50%) rotate(-2deg)}
+.hand{font-family:'Patrick Hand',cursive}.title{font-size:clamp(42px,8vw,74px);line-height:.95;margin:0 0 16px}
+.subtitle{font-size:18px;line-height:1.7}.doodle{position:absolute;font-family:'Patrick Hand';font-size:28px}
+.d1{top:24px;left:24px}.d2{top:20px;right:28px}.d3{bottom:20px;left:25px}.d4{bottom:25px;right:25px}
+.buttons{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin:30px 0 20px}
+button{border:2px solid #4a443d;background:#f3c9c8;color:#3e3a35;font:700 18px 'Quicksand';padding:13px 27px;border-radius:999px;cursor:pointer;transition:.18s;box-shadow:3px 4px 0 #4a443d22}
+button:hover{transform:translateY(-2px)}.no{background:#e9e0d0}.message{min-height:30px;font:26px 'Patrick Hand';margin:8px}
+.center{text-align:center}.photo{width:100%;height:360px;object-fit:cover;border:3px solid #4a443d;padding:7px;background:#fff;border-radius:4px;box-shadow:5px 6px 0 #483d301a}
+.polaroid{background:#fff;border:2px solid #4a443d;padding:10px 10px 18px;transform:rotate(-1deg)}
+.caption{font:24px 'Patrick Hand';margin-top:10px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}
+.note{background:#f4d4d0;padding:18px 20px;transform:rotate(1.3deg);font:22px 'Patrick Hand';line-height:1.25;border:1px solid #caa9a2}
+.info{font-size:18px;line-height:1.7}.card{background:#f5f0df;border:2px dashed #6d655b;padding:20px;margin:22px 0;border-radius:8px}
+@media(max-width:700px){.paper{padding:34px 18px 28px}.grid{grid-template-columns:1fr}.photo{height:310px}.title{font-size:52px}.subtitle,.info{font-size:16px}}
+</style></head><body>
+
+<section class="page active" id="p1">
+<main class="paper center"><div class="tape"></div>
+<span class="doodle d1">♡</span><span class="doodle d2">♡</span><span class="doodle d3">♡</span><span class="doodle d4">♡</span>
+<div class="polaroid" style="max-width:530px;margin:0 auto 28px;transform:rotate(1deg)">
+<img class="photo" src="assets/memory_1.jpg" alt="Our first date">
+<div class="caption">our first date 🥹</div></div>
+<h1 class="hand title">love nakoy favor nimo 👀</h1>
+<p class="subtitle"><strong>Date ta sa 20? ❤️</strong></p>
+<div class="buttons"><button onclick="sayYes()">YES ❤️</button><button class="no" onclick="sayNo()">NO 😭</button></div>
+<div id="reply" class="message"></div><button onclick="sayYes()">sige, next →</button>
+</main></section>
+
+<section class="page" id="p2"><main class="paper"><div class="tape"></div>
+<div class="grid">
+<div class="polaroid"><img class="photo" src="assets/memory_1.jpg" alt="Our first date"><div class="caption center">first date ❤️</div></div>
+<div>
+<h2 class="hand" style="font-size:46px;margin:0 0 12px">Ay baby 3 years na 🥹</h2>
+<p class="info">So for our anniversary,</p>
+<h2 class="hand" style="font-size:34px;line-height:1.1">balik ta sa atong first date place.</h2>
+<div class="card"><div class="hand" style="font-size:29px">📍 Zackies Coffee House</div><div class="hand" style="font-size:29px">🕕 6:00 PM</div></div>
+<p class="info">Adto didto love, then adto sa atong table sa first date sauna.</p>
+<p class="hand" style="font-size:28px">I'll be there sa call. ❤️</p>
+<div class="note">pero naa koy gamay nga surprise didto 🤭</div>
+<p class="hand" style="font-size:27px;margin:22px 0 4px">unsa kaha? 👀 →</p>
+<button onclick="show(3)">next →</button>
+</div></div></main></section>
+
+<section class="page" id="p3"><main class="paper"><div class="tape"></div>
+<div class="center">
+<h2 class="hand" style="font-size:50px;margin-bottom:5px">Okay, last na ni hehe.</h2>
+<p class="hand" style="font-size:32px">Happy 3rd anniversary, love. ❤️</p>
+</div>
+<div class="grid" style="margin-top:22px">
+<div class="polaroid"><img class="photo" src="assets/memory_2.jpg" alt="Us hugging"><div class="caption center">still you. always. ♡</div></div>
+<div class="polaroid" style="transform:rotate(1deg)"><img class="photo" src="assets/memory_3.jpg" alt="Us with Marie and Otap"><div class="caption center">you, me & Marie and Otap ♡</div></div>
+</div>
+<div style="max-width:760px;margin:25px auto 0">
+<p class="info">3 years na ta and daghan na kaayo tag naagian.</p>
+<p class="info">Layo ta karon and naa ko diri sa barko, pero gusto gihapon nako nga naa tay something special sa atong anniversary.</p>
+<p class="info">Mao nang balik ta sa first place where we started. 🥹</p>
+<div class="note" style="margin:24px 0">
+<strong>And one more thing hehe 👀</strong><br><br>
+Naa koy gipadala nimo.<br>
+Hopefully maabot siya around our anniversary. 🥹<br><br>
+If maabot siya while we're on call,<br><strong>open nato together ha? ❤️</strong><br><br>
+I want to see your reaction while you look through it hehe.
+</div>
+<p class="info">Enjoy our date, love.</p>
+<p class="hand" style="font-size:29px">Then paglingkod nimo sa table...</p>
+<p class="hand" style="font-size:38px;text-align:center">call me. ❤️</p>
+<p class="hand" style="font-size:31px;text-align:center">I love you, babing. 🫂</p>
+<div class="center" style="margin-top:18px"><p class="hand" style="font-size:31px">SEE YOU AT ZACKIES ❤️</p>
+<p style="font-size:15px;opacity:.8">September 20 · 6:00 PM Philippines time</p></div>
+</div></main></section>
+<script>
+function show(n){
+ document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+ document.getElementById('p'+n).classList.add('active');
+ window.scrollTo({top:0,behavior:'smooth'});
+}
+function sayNo(){document.getElementById('reply').textContent='mahimo nalang kog baki :('; }
+function sayYes(){
+ document.getElementById('reply').textContent='yipeeee 😭❤️';
+ setTimeout(()=>show(2),650);
+}
+</script></body></html>
